@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "add activities",
+      "setup": "yarn install",
+      "run": "yarn run test-add",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "remove activity",
+      "setup": "",
+      "run": "yarn run test-remove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
